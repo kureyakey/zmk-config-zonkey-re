@@ -24,6 +24,7 @@ manifest:
       url-base: https://github.com/yamaryu211
   projects:
     - name: zmk
+      # remote: zmkfirmware
       remote: te9no
       revision: v0.3-branch+dya
       import: app/west.yml
@@ -60,7 +61,7 @@ manifest:
       # path: modules/prospector-zmk-module
     - name: zmk-module-runtime-input-processor
       remote: cormoran
-      revision: 5f6d5e8
+      revision: main
     - name: zmk-module-battery-history
       remote: cormoran
       revision: main
