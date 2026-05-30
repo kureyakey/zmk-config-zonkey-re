@@ -63,21 +63,7 @@
     status = "okay";
 };
 
-/ {
-    encoder_3: encoder_3 {
-        compatible = "alps,ec11";
-        a-gpios = <&gpio1 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&gpio1 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <80>;
-        status = "okay";
-    };
 
-    sensors: sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&encoder_3>;
-        triggers-per-rotation = <20>;
-    };
-};
 
 &xiao_serial { status = "disabled"; };
 &xiao_i2c { status = "disabled"; };
