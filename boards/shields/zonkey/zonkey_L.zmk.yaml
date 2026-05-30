@@ -1,6 +1,6 @@
 file_format: "1"
-id: Solstice_L
-name: Solstice_L
+id: zonkey_L
+name: zonkey_L
 type: shield
 url: https://github.com/englmaxi/zmk-dongle-display
 requires: 
