@@ -60,7 +60,7 @@ manifest:
       # path: modules/prospector-zmk-module
     - name: zmk-module-runtime-input-processor
       remote: cormoran
-      revision: main
+      revision: 5f6d5e8
     - name: zmk-module-battery-history
       remote: cormoran
       revision: main
