@@ -24,9 +24,8 @@ manifest:
       url-base: https://github.com/yamaryu211
   projects:
     - name: zmk
-      # remote: zmkfirmware
       remote: te9no
-      revision: v0.3-branch+dya
+      revision: v0.3-branch+dya+rip
       import: app/west.yml
     - name: zmk-rgbled-widget
       remote: caksoylar
