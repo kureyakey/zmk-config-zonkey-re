@@ -1,7 +1,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
-#include "Solstice_pinctrl_R.dtsi"
+#include "zonkey_pinctrl_R.dtsi"
 
 / {
     kscan0: kscan0 {
