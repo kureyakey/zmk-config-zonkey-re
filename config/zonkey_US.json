@@ -86,6 +86,13 @@
       "identifier": "encoder_2",
       "compatible": "alps,ec11",
       "enabled": true
+    },
+    {
+      "ref": "encoder_3",
+      "name": "encoder_3",
+      "identifier": "encoder_3",
+      "compatible": "alps,ec11",
+      "enabled": true
     }
   ]
 }
