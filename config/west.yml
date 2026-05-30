@@ -25,7 +25,7 @@ manifest:
   projects:
     - name: zmk
       remote: te9no
-      revision: v0.3-branch+dya+rip
+      revision: v0.3-branch+dya
       import: app/west.yml
     - name: zmk-rgbled-widget
       remote: caksoylar
