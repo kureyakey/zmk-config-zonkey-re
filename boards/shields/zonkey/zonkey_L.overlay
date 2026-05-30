@@ -212,7 +212,7 @@
         sensors = <&encoder_1 &encoder_2>;
         triggers-per-rotation = <20>;
     };
-};                          // ← この }; が抜けている
+};
 
 &xiao_serial { status = "disabled"; };
-&uart0 { status = "disabled";};
+&uart0 { status = "disabled";};
