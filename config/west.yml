@@ -27,8 +27,8 @@ manifest:
   projects:
     - name: zmk
       # remote: zmkfirmware
-      remote: te9no
-      revision: v0.3-branch+dya
+      remote: cormoran
+      revision: workflow/sync-upstream/main+custom-studio-protocol
       import: app/west.yml
     - name: zmk-rgbled-widget
       remote: caksoylar
