@@ -60,9 +60,11 @@ manifest:
     - name: zmk-module-ble-management
       remote: cormoran
       revision: main
-    - name: zmk-module-settings-rpc
-      remote: cormoran
-      revision: main
+    # zmk-module-settings-rpc は v0.3+custom-studio-protocol と互換性なし
+    # ZMK本体が zmk_activity_get/set_idle/sleep_ms を実装したら再度有効化
+    # - name: zmk-module-settings-rpc
+    #   remote: cormoran
+    #   revision: main
     - name: zmk-feature-module-physical-layout
       remote: cormoran
       revision: main
