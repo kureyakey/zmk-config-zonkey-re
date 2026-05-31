@@ -25,11 +25,10 @@ manifest:
     - name: kureyakey
       url-base: https://github.com/kureyakey
   projects:
-    - name: zmk
-      # remote: zmkfirmware
-      remote: cormoran
-      revision: workflow/sync-upstream/main+custom-studio-protocol
-      import: app/west.yml
+   - name: zmk
+  remote: te9no
+  revision: v0.3-branch+dya
+  import: app/west.yml
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: v0.3
