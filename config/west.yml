@@ -22,6 +22,8 @@ manifest:
       url-base: https://github.com/efogdev
     - name: yamaryu211
       url-base: https://github.com/yamaryu211
+    - name: kureyakey
+      url-base: https://github.com/kureyakey
   projects:
     - name: zmk
       # remote: zmkfirmware
@@ -69,7 +71,7 @@ manifest:
       remote: cormoran
       revision: main
     - name: zmk-module-settings-rpc
-      remote: cormoran
+      remote: kureyakey
       revision: main
     - name: zmk-feature-module-physical-layout
       remote: cormoran
