@@ -46,7 +46,8 @@ manifest:
       remote: te9no
       revision: main
     - name: zmk-input-processor-keybind
-      remote: kureyakey
+      remote: te9no
+      # remote: te9no
       revision: main
     - name: zmk-layout-shift
       remote: kot149
