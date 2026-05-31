@@ -62,7 +62,7 @@ manifest:
       # revision: v1.1.1
       # path: modules/prospector-zmk-module
     - name: zmk-module-runtime-input-processor
-      remote: cormoran
+      remote: kureyakey
       revision: main
     - name: zmk-module-battery-history
       remote: cormoran
@@ -71,7 +71,7 @@ manifest:
       remote: cormoran
       revision: main
     - name: zmk-module-settings-rpc
-      remote: kureyakey
+      remote: cormoran
       revision: main
     - name: zmk-feature-module-physical-layout
       remote: cormoran
