@@ -22,13 +22,12 @@ manifest:
       url-base: https://github.com/efogdev
     - name: yamaryu211
       url-base: https://github.com/yamaryu211
-    - name: kureyakey
-      url-base: https://github.com/kureyakey
   projects:
-   - name: zmk
-  remote: te9no
-  revision: v0.3-branch+dya
-  import: app/west.yml
+    - name: zmk
+      # remote: zmkfirmware
+      remote: te9no
+      revision: v0.3-branch+dya
+      import: app/west.yml
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: v0.3
@@ -61,7 +60,7 @@ manifest:
       # revision: v1.1.1
       # path: modules/prospector-zmk-module
     - name: zmk-module-runtime-input-processor
-      remote: kureyakey
+      remote: cormoran
       revision: main
     - name: zmk-module-battery-history
       remote: cormoran
