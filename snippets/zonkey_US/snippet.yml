@@ -1,4 +1,0 @@
-name: zonkey_US
-append:
-  EXTRA_CONF_FILE: zonkey_US.conf
-  EXTRA_DTC_OVERLAY_FILE: zonkey_US.overlay
