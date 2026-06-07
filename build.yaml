@@ -1,16 +1,16 @@
 ---
 include:
 
- - board: seeeduino_xiao_ble
+ - board: xiao_ble/nrf52840/zmk
     shield: zonkey_L rgbled_adapter dongle_display
     snippet: zmk-usb-logging studio-rpc-usb-uart zonkey_JIS
     artifact-name: zonkey_L_JIS
 
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble/nrf52840/zmk
     shield: zonkey_R rgbled_adapter
     snippet: zmk-usb-logging studio-rpc-usb-uart zonkey_JIS
     artifact-name: zonkey_R_JIS
 
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble/nrf52840/zmk
     shield: settings_reset
     
