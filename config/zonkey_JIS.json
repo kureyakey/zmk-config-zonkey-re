@@ -68,28 +68,5 @@
         { "x":  17.5, "y": 4.25, "row": 4, "col":  8}
       ]
     }
-  },
-  "sensors": [
-    {
-      "ref": "encoder_1",
-      "name": "encoder_1",
-      "identifier": "encoder_1",
-      "compatible": "alps,ec11",
-      "enabled": true
-    },
-    {
-      "ref": "encoder_2",
-      "name": "encoder_2",
-      "identifier": "encoder_2",
-      "compatible": "alps,ec11",
-      "enabled": true
-    },
-    {
-      "ref": "encoder_3",
-      "name": "encoder_3",
-      "identifier": "encoder_3",
-      "compatible": "alps,ec11",
-      "enabled": true
-    }
-  ]
+  }
 }
